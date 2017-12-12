@@ -1,0 +1,15 @@
+<svg id="pin" xmlns="http://www.w3.org/2000/svg" width="48" height="64" viewBox="0 0 48 64">
+  <defs>
+    <style>
+      .cls-1 {
+        fill-rule: evenodd;
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <path id="pin-2" data-name="pin" class="cls-1" d="M863,1023c0,13.26-24,40-24,40s-24-26.74-24-40A24,24,0,0,1,863,1023Z" transform="translate(-815 -999)"/>
+  <circle id="circle" class="cls-2" cx="24" cy="24" r="9"/>
+</svg>

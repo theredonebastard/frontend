@@ -1,0 +1,78 @@
+<!DOCTYPE html5>
+<html></html>
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1"/>
+  <title>contacts</title>
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:100,300,400,500,700" rel="stylesheet"/>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
+  <link href="css/main.css" rel="stylesheet"/>
+</head>
+<body>
+  <header class="container">
+    <div class="col-md-2 col-sm-4 col-xs-2 logo"><a href="index.html" class="link">clemo.</a></div>
+    <div class="col-md-10 col-sm-8 col-xs-1 menu">
+      <ul class="list-inline">
+        <li class="menu-item"><a href="about.html">about us</a></li>
+        <li class="menu-item"><a href="services.html">services</a></li>
+        <li class="menu-item"><a href="works.html">works</a></li>
+        <li class="menu-item"><a href="blog.html">blog</a></li>
+        <li class="menu-item"><a href="contacts.html">contacts</a></li>
+      </ul>
+    </div>
+    <div class="col-sm-8 col-xs-10 mobile-menu">
+      <button type="button" id="show-mobile"><span class="fa fa-bars"></span></button>
+      <div class="mobile">
+        <ul>
+          <li><a href="about.html">about us</a></li>
+          <li><a href="services.html">services</a></li>
+          <li><a href="works.html">works</a></li>
+          <li><a href="blog.html">blog</a></li>
+          <li><a href="contacts.html">contacts</a></li>
+        </ul>
+      </div>
+    </div>
+  </header>
+  <section id="contacts">
+    <div class="get-in-touch">
+      <hr class="separator"/>
+      <section class="container">
+        <h1 class="article-header">contact</h1>
+        <div class="col-md-6 col-sm-6 contacts">
+          <div class="contacts-row"><span class="glyphicon glyphicon-map-marker"></span><span class="contacts-text">23 Mulholland Drive, Suite 721. Los Angeles 10010 100 S. Main Street. Los Angeles 90012</span></div>
+          <div class="contacts-row"><span class="glyphicon glyphicon-phone"></span><span class="contacts-text"><a href="tel:+1-670-567-5590" class="link">+1-670-567-5590</a></span></div>
+          <div class="contacts-row"><span class="glyphicon glyphicon-envelope"></span><span class="contacts-text"><a href="mailto:hello@clemocreative.com" class="link">hello@clemocreative.com</a></span></div>
+          <div class="contacts-row"><a href="http:\facebook.com"><span class="fa fa-facebook black"></span></a><a href="http:\twitter.com"><span class="fa fa-twitter black"></span></a><a href="http:\google.com"><span class="fa fa-google-plus black"></span></a><a href="http:\pinterest.com"><span class="fa fa-pinterest black">   </span></a><a href="http:\instagram.com"><span class="fa fa-instagram black"></span></a></div>
+        </div>
+        <div class="col-md-6 col-sm-6 form">
+          <form action="" id="contacts-form">
+            <div class="form-group input-field">
+              <label for="name">name</label>
+              <input type="text" id="name" class="form-control"/><span aria-hidden="true" class="glyphicon glyphicon-ok form-control-feedback hidden"></span>
+            </div>
+            <div class="form-group input-field">
+              <label for="email">e-mail</label>
+              <input type="email" id="email" class="form-control"/><span aria-hidden="true" class="glyphicon glyphicon-ok form-control-feedback hidden"> </span>
+            </div>
+            <div class="form-group input-field">
+              <label for="message">your message</label>
+              <input type="text" id="message" class="form-control"/><span aria-hidden="true" class="glyphicon glyphicon-ok form-control-feedback hidden">  </span>
+            </div><a href="#" id="form-btn" class="black-btn">submit    </a>
+          </form>
+        </div>
+        <div id="success-form" class="message-success hidden"><br/><span class="text-success">Thank you! Your message has been sent!</span><br/><a href="#" class="black-btn">new message</a>
+        </div>
+      </section>
+    </div>
+    <div id="map"></div>
+  </section>
+  <footer>
+    <div class="col-md-12 col-sm-12"><span class="copyright">&copy; 2016 clemo</span><br/><span class="copyright-small">all rights reserved</span></div>
+  </footer>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/js/materialize.min.js"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCDfI412MqjkrwDlM8sRsamj6Qq5O_Fkbs&amp;callback=initMap" async="async" defer="defer"></script>
+  <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
+  <script src="js/main.js"> </script>
+</body>
